@@ -1,0 +1,206 @@
+a:link, svg  {
+    color: #001d3d;
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+
+}
+a:visited, svg {
+    color: #003566;
+    text-decoration: none;
+    text-align: center;
+    
+}
+a:hover, svg {
+    color: #0077b6;
+    text-decoration: none;
+    text-align: center;
+}
+.flecha	{
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	margin: 30px;
+	border-top: solid 15px;
+	border-right: solid 15px;
+}
+.flecha.derecha {
+	transform: rotate(45deg);
+}
+.flecha.izquierda {
+	transform: rotate(225deg);
+}
+.foto1{
+    padding: 10px; 
+    margin: 10px; 
+    border: 2px solid black; 
+    float: right; 
+    width: 250px; 
+}
+.foto2{
+    padding: 25px; 
+    margin: 25px; 
+    float: left; 
+    width: 400px; 
+    float: left; 
+}
+
+.foto3{
+    padding: 10px; 
+    margin: 10px; 
+    float: right; 
+    width: 350px; 
+}
+.foto4{
+    padding: 25px; 
+    margin: 25px; 
+    float: inline-start; 
+    width: 400px; 
+    float: left; 
+}
+
+.foto5{
+    padding: 10px; 
+    margin: 10px; 
+    float: right; 
+    width: 400px; 
+}
+.foto6{
+    padding: 25px; 
+    margin: 25px; 
+    float: left;
+    width: 350px;
+}
+.foto7{
+    padding: 10px; 
+    margin: 10px; 
+    float: right; 
+    width: 400px; 
+}
+.foto8{
+    padding: 25px; 
+    margin: 25px; 
+    float: left; 
+    width: 500px; 
+    float: left; 
+}
+
+
+/*font-family: 'Merriweather', serif;
+font-family: 'Oxygen', sans-serif;
+font-family: 'Roboto Slab', serif;
+font-family: 'Signika', sans-serif;*/
+title{
+    font-size: 25px;
+}
+h1{
+    text-align: center;
+    font-family: cursive;
+    font-size: 25px;
+}
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-style: italic;
+    margin: 20px;
+    padding: 2px;
+    text-align: center;
+}
+h3 {
+    font-family: 'oxygen', sans-serif;
+    font-style: cursive;
+    font-size: 20px;
+    margin: 20px;
+    padding: 2px;
+    text-align: center;
+}
+table{
+    text-align: center;
+}
+h4{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-style: italic;
+    margin: 20px;
+    padding: 2px;
+
+}
+p {
+    margin: 20px;
+    padding: 2px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+ul{
+    margin: 20px;
+    padding: 2px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+iframe{
+    margin: 20px;
+    padding: 2px;
+    text-align: center;
+}
+#intro{
+    background-color: #48cae4;
+    margin: 30px;
+    border: solid 3px #001d3d;
+    padding: 5px;
+}
+#divstyle {
+    text-align: center;
+}
+#indexbody {
+    background-image: linear-gradient(to right, #7b2cbf, #9d4edd, #c77dff, #9d4edd, #c77dff, #e0aaff, #e0aaff);
+    margin: 30px;
+    padding: 5px;
+}
+#primera{
+    background-color: #7b2cbf;
+    margin: 30px;
+    border: solid 3px #c77dff;
+    padding: 5px;
+}
+#segunda{
+    background-color: #9d4edd;
+    margin: 30px;
+    border: solid 3px #e0aaff;
+    padding: 5px;
+}
+#tercera{
+    background-color: #c77dff;
+    margin: 30px;
+    border: solid 3px #001d3d;
+    padding: 5px;
+}
+#cuarta{
+    background-color: #e0aaff;
+    margin: 30px;
+    border: solid 3px #001d3d;
+    padding: 5px;
+}
+#quinta{
+    background-color: #7b2cbf;
+    margin: 30px;
+    border: solid 3px #001d3d;
+    padding: 5px;
+}
+#sexta{
+    background-color: #9d4edd;
+    margin: 30px;
+    border: solid 3px #001d3d;
+    padding: 5px;
+}
+#septima{
+    background-color: #e0aaff;
+    margin: 30px;
+    border: solid 3px #001d3d;
+    padding: 5px;
+}
+#octava{
+    background-color: #c77dff;
+    margin: 30px;
+    border: solid 3px #001d3d;
+    padding: 5px;
+}
